@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الحجز</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="booking">
+    <h2>نموذج الحجز</h2>
+    <form onsubmit="event.preventDefault(); alert('تم إرسال الحجز بنجاح!');">
+      <label for="name">الاسم الكامل:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">اختر الخدمة:</label>
+      <select id="service" name="service" required>
+        <option value="">-- اختر --</option>
+        <option value="room">المرافق</option>
+        <option value="spa">المنتجع</option>
+        <option value="outdoor">المراعي</option>
+        <option value="vet">الخدمات البيطرية</option>
+        <option value="premium">الحزمة المميزة</option>
+        <option value="classic">الحزمة الكلاسيكية</option>
+        <option value="day">حزمة اليوم</option>
+      </select>
+
+      <button type="submit" class="btn">إرسال الحجز</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
