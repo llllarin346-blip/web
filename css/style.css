@@ -1,0 +1,83 @@
+body {
+    background-color: #800000; /* خمري */
+    color: #000; /* أسود */
+}
+
+
+
+
+
+/* الترحيب بالنص */
+.welcome {
+    text-align: center;
+    padding: 30px;
+}
+
+/* من نحن على اليمين */
+.about {
+    text-align: right;
+    padding: 20px;
+}
+
+/* الخدمات والمرافق بوكسات جنب بعض */
+.section-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ccc; /* سكني */
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.box img {
+    width: 190px; /* حجم ثابت */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* الحجز والاتصال بالنص */
+.booking, .contact {
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: #ccc; /* سكني */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #800000; /* خمري داخل البوكس */
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #800000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* أسود */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
